@@ -1,0 +1,12 @@
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+ol > * + * {
+	margin-top: 2.5em;
+}
+
+img {
+	width: 100%;
+}

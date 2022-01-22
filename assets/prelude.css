@@ -1,0 +1,19 @@
+/* size elements based on their total occupied space, rather
+ * than only the space of their content */
+* {
+	box-sizing: border-box;
+}
+
+/* remove default margins */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+ul,
+ol {
+	margin: 0;
+}
