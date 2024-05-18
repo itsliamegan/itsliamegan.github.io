@@ -15,24 +15,17 @@ header {
 	border-bottom: 0.15em solid #333;
 }
 
+main {
+	display: flex;
+}
+
 h1 {
 	font-size: 1.25rem;
 	font-weight: bold;
 }
 
-main > * + * {
-	margin-top: 0.75em;
-}
-
-a {
-	color: inherit;
-	text-decoration-color: hsl(217, 30%, 50%);
-	text-decoration-thickness: 0.1em;
-}
-
-#the-internet {
-	font-family: Tourney, sans-serif;
-	font-style: normal;
+#indicator {
+	margin: 5em auto 0 auto;
 }
 
 @media screen and (min-width: 800px) {

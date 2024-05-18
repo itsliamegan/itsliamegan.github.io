@@ -17,3 +17,14 @@ ul,
 ol {
 	margin: 0;
 }
+
+/*
+ * Ensure that font size and weight must be chosen explicitly.
+ */
+h1,
+h2,
+h3,
+h4 {
+	font-size: 1rem;
+	font-weight: normal;
+}
