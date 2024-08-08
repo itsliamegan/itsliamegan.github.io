@@ -1,21 +1,22 @@
-/* size elements based on their total occupied space, rather
- * than only the space of their content */
+/*
+ * Size elements based on their total occupied space, rather
+ * than only the space of their content.
+ */
 * {
 	box-sizing: border-box;
 }
 
-/* remove default margins */
+/*
+ * Remove default spacing.
+ */
 body,
-h1,
-h2,
-h3,
-h4,
+h1, h2, h3, h4,
 p,
 figure,
 blockquote,
-ul,
-ol {
+ul, ol {
 	margin: 0;
+	padding: 0;
 }
 
 /*

@@ -1,0 +1,26 @@
+section > header {
+	margin-bottom: 0.75em;
+	border-bottom: 0.075em solid #333;
+}
+
+section > header > h2 {
+	font-size: 0.875rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+section > ol > li {
+	display: flex;
+}
+
+section > ol > li + li {
+	margin-top: 0.25em;
+}
+
+section > ol > li > a {
+	color: inherit;
+}
+
+section > ol > li > time {
+	margin-left: auto;
+}

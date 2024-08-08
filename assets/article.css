@@ -1,0 +1,55 @@
+article {
+	margin-top: 1em;
+}
+
+article > header > h2 {
+	font-weight: bold;
+	font-size: 1.35rem;
+}
+
+article > header > h3 {
+	font-size: 1.15rem;
+}
+
+article > header > aside {
+	font-style: italic;
+	font-size: 0.875rem;
+}
+
+article > header > aside {
+	margin-top: 0.5em;
+}
+
+article > section > h4 {
+	font-weight: bold;
+}
+
+article p {
+	text-align: justify;
+}
+
+article sup {
+	font-size: 0.75rem;
+}
+
+article > * + section {
+	margin-top: 1.25em;
+}
+
+article > section > * + p {
+	margin-top: 0.75em;
+}
+
+.note-backlink {
+	font-size: 0.75em;
+}
+
+#notes {
+	list-style: none;
+	margin-top: 2em;
+	font-size: 0.875em;
+}
+
+#notes > li + li {
+	margin-top: 0.5em;
+}
