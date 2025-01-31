@@ -26,6 +26,7 @@ article > section > h4 {
 
 article p {
 	text-align: justify;
+	margin-top: 0.75em;
 }
 
 article sup {
@@ -34,10 +35,6 @@ article sup {
 
 article > * + section {
 	margin-top: 1.25em;
-}
-
-article > section > * + p {
-	margin-top: 0.75em;
 }
 
 .note-backlink {
